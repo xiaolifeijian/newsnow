@@ -51,5 +51,10 @@ export const metadata: Metadata = typeSafeObjectFromEntries(typeSafeObjectEntrie
         name: v.zh,
         sources: typeSafeObjectEntries(sources).filter(([, v]) => v.column === k && !v.redirect).map(([k]) => k),
       }]
+      case "tech":
+      return [k, {
+        name: v.zh,
+        sources: typeSafeObjectEntries(sources).filter(([, v]) => v.type === "tech" && !v.redirect).map(([k]) => k),
+      }]
   }
 }))
