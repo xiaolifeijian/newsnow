@@ -49,14 +49,6 @@ export const originSources = {
     desc: "来自第三方网站: 早晨报",
     home: "https://www.zaobao.com",
   },
-  "coolapk": {
-    name: "酷安",
-    type: "hottest",
-    column: "tech",
-    color: "green",
-    title: "今日最热",
-    home: "https://coolapk.com",
-  },
   "mktnews": {
     name: "MKTNews",
     column: "finance",
@@ -114,22 +106,6 @@ export const originSources = {
     color: "gray",
     home: "https://www.douyin.com",
   },
-  "hupu": {
-    name: "虎扑",
-    home: "https://hupu.com",
-    column: "china",
-    title: "主干道热帖",
-    type: "hottest",
-    color: "red",
-  },
-  "tieba": {
-    name: "百度贴吧",
-    title: "热议",
-    column: "china",
-    type: "hottest",
-    color: "blue",
-    home: "https://tieba.baidu.com",
-  },
   "toutiao": {
     name: "今日头条",
     type: "hottest",
@@ -165,25 +141,6 @@ export const originSources = {
     column: "world",
     interval: Time.Common,
     home: "https://china.cankaoxiaoxi.com",
-  },
-  "pcbeta": {
-    name: "远景论坛",
-    color: "blue",
-    column: "tech",
-    home: "https://bbs.pcbeta.com",
-    sub: {
-      windows11: {
-        title: "Win11",
-        type: "realtime",
-        interval: Time.Fast,
-      },
-      windows: {
-        title: "Windows 资源",
-        type: "realtime",
-        interval: Time.Fast,
-        disable: true,
-      },
-    },
   },
   "cls": {
     name: "财联社",
@@ -302,15 +259,6 @@ export const originSources = {
       },
     },
   },
-  "kuaishou": {
-    name: "快手",
-    type: "hottest",
-    column: "china",
-    color: "orange",
-    // cloudflare pages cannot access
-    disable: "cf",
-    home: "https://www.kuaishou.com",
-  },
   "kaopu": {
     name: "靠谱新闻",
     column: "world",
@@ -332,25 +280,6 @@ export const originSources = {
     color: "blue",
     type: "hottest",
     home: "https://www.baidu.com",
-  },
-  "linuxdo": {
-    name: "LINUX DO",
-    column: "tech",
-    color: "slate",
-    home: "https://linux.do/",
-    disable: true,
-    sub: {
-      latest: {
-        title: "最新",
-        home: "https://linux.do/latest",
-      },
-      hot: {
-        title: "今日最热",
-        type: "hottest",
-        interval: Time.Common,
-        home: "https://linux.do/hot",
-      },
-    },
   },
   "ghxi": {
     name: "果核剥壳",
@@ -430,20 +359,6 @@ export const originSources = {
     color: "blue",
     type: "hottest",
     home: "https://store.steampowered.com",
-  },
-  "tencent": {
-    name: "腾讯新闻",
-    column: "china",
-    color: "blue",
-    home: "https://news.qq.com",
-    sub: {
-      hot: {
-        title: "综合早报",
-        type: "hottest",
-        interval: Time.Common,
-        home: "https://news.qq.com/tag/aEWqxLtdgmQ=",
-      },
-    },
   },
   "freebuf": {
     name: "Freebuf",
