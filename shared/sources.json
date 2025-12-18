@@ -42,15 +42,6 @@
     "color": "red",
     "interval": 1800000
   },
-  "coolapk": {
-    "title": "今日最热",
-    "name": "酷安",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://coolapk.com",
-    "color": "green",
-    "interval": 600000
-  },
   "mktnews": {
     "redirect": "mktnews-flash",
     "name": "MKTNews",
@@ -140,37 +131,11 @@
     "color": "gray",
     "interval": 600000
   },
-  "hupu": {
-    "title": "主干道热帖",
-    "name": "虎扑",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://hupu.com",
-    "color": "red",
-    "interval": 600000
-  },
-  "tieba": {
-    "title": "热议",
-    "name": "百度贴吧",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://tieba.baidu.com",
-    "color": "blue",
-    "interval": 600000
-  },
   "toutiao": {
     "name": "今日头条",
     "type": "hottest",
     "column": "china",
     "home": "https://www.toutiao.com",
-    "color": "red",
-    "interval": 600000
-  },
-  "ithome": {
-    "name": "IT之家",
-    "type": "realtime",
-    "column": "tech",
-    "home": "https://www.ithome.com",
     "color": "red",
     "interval": 600000
   },
@@ -196,25 +161,6 @@
     "home": "https://china.cankaoxiaoxi.com",
     "color": "red",
     "interval": 1800000
-  },
-  "pcbeta": {
-    "redirect": "pcbeta-windows11",
-    "name": "远景论坛",
-    "type": "realtime",
-    "column": "tech",
-    "home": "https://bbs.pcbeta.com",
-    "color": "blue",
-    "interval": 300000,
-    "title": "Win11"
-  },
-  "pcbeta-windows11": {
-    "name": "远景论坛",
-    "type": "realtime",
-    "column": "tech",
-    "home": "https://bbs.pcbeta.com",
-    "color": "blue",
-    "interval": 300000,
-    "title": "Win11"
   },
   "cls": {
     "redirect": "cls-telegraph",
@@ -320,14 +266,6 @@
     "column": "tech",
     "home": "https://news.ycombinator.com/",
     "color": "orange",
-    "interval": 600000
-  },
-  "producthunt": {
-    "name": "Product Hunt",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://www.producthunt.com/",
-    "color": "red",
     "interval": 600000
   },
   "github": {
@@ -497,25 +435,6 @@
     "home": "https://store.steampowered.com",
     "color": "blue",
     "interval": 600000
-  },
-  "tencent": {
-    "redirect": "tencent-hot",
-    "name": "腾讯新闻",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://news.qq.com/tag/aEWqxLtdgmQ=",
-    "color": "blue",
-    "interval": 1800000,
-    "title": "综合早报"
-  },
-  "tencent-hot": {
-    "name": "腾讯新闻",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://news.qq.com/tag/aEWqxLtdgmQ=",
-    "color": "blue",
-    "interval": 1800000,
-    "title": "综合早报"
   },
   "freebuf": {
     "title": "网络安全",
