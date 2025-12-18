@@ -215,13 +215,6 @@ export const originSources = {
     type: "hottest",
     home: "https://news.ycombinator.com/",
   },
-  "producthunt": {
-    name: "Product Hunt",
-    color: "red",
-    column: "tech",
-    type: "hottest",
-    home: "https://www.producthunt.com/",
-  },
   "github": {
     name: "Github",
     color: "gray",
@@ -231,31 +224,6 @@ export const originSources = {
       "trending-today": {
         title: "Today",
         type: "hottest",
-      },
-    },
-  },
-  "bilibili": {
-    name: "哔哩哔哩",
-    color: "blue",
-    home: "https://www.bilibili.com",
-    sub: {
-      "hot-search": {
-        title: "热搜",
-        column: "china",
-        type: "hottest",
-      },
-      "hot-video": {
-        title: "热门视频",
-        disable: "cf",
-        column: "china",
-        type: "hottest",
-      },
-      "ranking": {
-        title: "排行榜",
-        column: "china",
-        disable: "cf",
-        type: "hottest",
-        interval: Time.Common,
       },
     },
   },
